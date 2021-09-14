@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+textarea{
+    display: block;
+    border: none;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    padding: 1rem;
+}
+:root{
+    --primary-color : #10B981;
+    --secondary-color :  #047857;
+}
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding:  1rem;
+}
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.yoda{
+    margin: 0px;
+}
+.header-yoda{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    
+}
+.input-div{
+    padding: 2rem;
+    background-color: var(--primary-color);
+}
+.btn-div{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+#btn-translate{
+    padding: 1rem;
+    border: solid var(--primary-color);
+    border-radius: 2rem;
+    color: white;
+    background-color: var(--secondary-color);
+}
+/* .output-header{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+} */
+.output-section{
+
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
