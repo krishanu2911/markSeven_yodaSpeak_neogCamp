@@ -6,6 +6,7 @@ textarea{
     height: 10vh;
     margin: auto;
     padding: 1rem;
+    max-width: 600px;
 }
 :root{
     --primary-color : #10B981;
@@ -16,8 +17,10 @@ textarea{
     height: 10vh;
     width: 80%;
     margin: auto;
+    color: black;
     background-color: white;
     padding:  1rem;
+    max-width: 600px;
 }
 body{
     margin: 0px;
@@ -31,7 +34,7 @@ body{
     padding: 2rem;
     text-align: center;
     color: white;
-    
+    font-size: 2rem ;    
 }
 .input-div{
     padding: 2rem;
@@ -47,6 +50,7 @@ body{
     border: solid var(--primary-color);
     border-radius: 2rem;
     color: white;
+    cursor: pointer;
     background-color: var(--secondary-color);
 }
 /* .output-header{
@@ -62,4 +66,34 @@ body{
     text-align: center;
     color: white;
     margin: auto;
+    
+}
+.footer{
+ 
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer img{
+    width: 2rem;
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+.footer .footer-header{
+    margin: auto;
+    max-width: 600px;
 }

@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>yodaSpeak | krishanudutta</title>
     <link href="styles.css" rel="stylesheet" />
-</head>
-<body>
+  </head>
+  <body>
     <section class="header-section">
-        <div class="header-yoda">
-            <h1 class="yoda">yoda speaks</h1>
-        </div>
+      <div class="header-yoda">
+        <h1 class="yoda">YodaSpeaks</h1>
+      </div>
     </section>
     <section>
-        <div class="input-div">
-            <textarea id="input-text" placeholder="type your sentence here"></textarea>
-        </div>
+      <div class="input-div">
+        <textarea
+          id="input-text"
+          placeholder="type your sentence here"
+        ></textarea>
+      </div>
     </section>
     <section>
-            <div class="btn-div">
-                <button id="btn-translate" >Translate to Yoda</button>
-            </div>
+      <div class="btn-div">
+        <button id="btn-translate">Translate to Yoda</button>
+      </div>
     </section>
-    
+
     <section class="output-section">
-        <div class="output-header">
-            <h1>here is your translation</h1>
-        </div>
-        
-        <div id="output"></div>
+      <div class="output-header">
+        <h1>Your Yoda Translation Is Here 👇🏻</h1>
+      </div>
+
+      <div id="output"></div>
     </section>
-    
-    <script src="app.js" type="text/javascript" ></script>
-</body>
+    <footer class="footer">
+      <div class="footer-header">
+        <h1 style="color: black">Hi !!! 👋</h1>
+
+        <h1 style="padding: 2rem 1rem; color: black">
+          This is a translator app which converts your text in to yoda's way of
+          speaking (language). hope you liked it 😃
+        </h1>
+      </div>
+      <ul class="list-non-bulle footer-pills">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/krishanu2911"
+            ><img class="github-icon" src="/images/github-icon.svg" /><span
+              style="color: black"
+              >GitHub</span
+            ></a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/krishanu-dutta-0967711b8/"
+            ><img class="github-icon" src="/images/linkden-icon.svg" /><span
+              style="color: black"
+              >Linkden</span
+            ></a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/KrishanuDutta_"
+            ><img class="github-icon" src="/images/twitter-icon.svg" /><span
+              style="color: black"
+              >Twitter</span
+            ></a
+          >
+        </li>
+      </ul>
+      <div style="padding: 2rem; color: black">© | 2021 | krishanudutta</div>
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
+  </body>
 </html>
